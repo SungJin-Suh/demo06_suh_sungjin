@@ -1,1 +1,94 @@
+/* New Colour Palette:
+* Pink lavender (Main Background): #D8B4E2
+* Dark purple (Primary): #210B2C
+* Wisteria (Secondary): #BC96E6
+* Eminence (Accent): #55286F
+*/
 
+.nav-link:hover {
+    background-color: aliceblue;
+    color:dodgerblue;
+}
+
+.bg-info {
+    background-color: #D8B4E2 !important;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #210B2C
+}
+
+.btn-info {
+    color: #D8B4E2;
+    background-color: #BC96E6;
+    border-color: #210B2C;
+}
+
+.btn-primary {
+    color: #D8B4E2;
+    font-size: 150%;
+    background-color: #210B2C;
+    border-color: #55286F;
+    border-width: thick;
+}
+
+body {
+    background-color: #D8B4E2;
+}
+
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 2.25rem;
+}
+
+/* Style for radio button labels when not selected */
+.btn-outline-primary {
+    color: #210B2C;
+    border-color: #BC96E6;
+}
+
+/* Style for radio button labels on hover or focus */
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+    color: #D8B4E2;
+    background-color: #BC96E6;
+    border-color: #210B2C;
+}
+
+/* Style for the active (checked) radio button label */
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary {
+    color: #D8B4E2;
+    background-color: #210B2C;
+    border-color: #55286F;
+}
+
+/* Custom styles for dropdown to match the new color palette */
+/* Style for the dropdown button */
+.btn-secondary {
+    color: #D8B4E2;
+    background-color: #210B2C;
+    border-color: #BC96E6;
+}
+
+/* Change dropdown button hover/focus styles */
+.btn-secondary:hover, .btn-secondary:focus {
+    color: #D8B4E2;
+    background-color: #BC96E6;
+    border-color: #210B2C;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #D8B4E2;
+    border-color: #BC96E6;
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    color: #210B2C;
+}
+
+/* Style for dropdown item hover */
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #D8B4E2;
+    background-color: #BC96E6;
+}
